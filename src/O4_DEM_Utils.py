@@ -8,7 +8,7 @@ from math import sqrt
 import array
 import numpy
 try:
-    import gdal
+    from osgeo import gdal
     has_gdal=True
 except:
     has_gdal=False
