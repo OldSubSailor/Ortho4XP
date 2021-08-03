@@ -62,17 +62,22 @@ pip install *******.whl [replacing ******** successively by each of the files do
 You should be done. Open a command window in the Ortho4XP directory (freshly downloaded from Github)
 and launch "python Ortho4XP_v130.py".
 
-OS X
+macOS
 ----
 
-1) In a Terminal window, install Homebrew (brew.sh), a package manager
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+1) In a Terminal window, install Homebrew (brew.sh), a package manager RUBY IS BEING DEPRECIATED in the future use the new install below.
 
-2) Go to the Ortho4XP folder
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  
+  NOTE: Installing Homebrew will also install Apple Command Line Tools if not installed. This also installs Python 3.8 which you do not need and will not work       with with the various Homebrew files needed for Ortho4XP. You will need Homebrew Python which is Homebrew Python 3.9.6 as of 8/2021.
+  
+  
+  
+
+2) Go to the Ortho4XP folder 
 cd /path/to/Ortho4XP
 
-3) Execute the install script (you may have to run "chmod +x ./install_mac.sh" first)
-./install_mac.sh
+3) Follow the instructions on the install_mac.sh file
 
 4) Launch Ortho4XP
 python3 Ortho4XP_v130.py
