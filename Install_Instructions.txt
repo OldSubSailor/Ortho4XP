@@ -65,11 +65,12 @@ and launch "python Ortho4XP_v130.py".
 macOS
 ----
 
-1) In a Terminal window, install Homebrew (brew.sh), a package manager RUBY IS BEING DEPRECIATED in the future use the new install below.
+1) In a Terminal window, install Homebrew (brew.sh), a package manager 
+RUBY IS BEING DEPRECIATED in the future use the new install below.
 
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   
-  NOTE: Installing Homebrew will also install Apple Command Line Tools if not installed. This also installs Python 3.8 which you do not need and will not work       with with the various Homebrew files needed for Ortho4XP. You will need Homebrew Python which is Homebrew Python 3.9.6 as of 8/2021.
+NOTE: Installing Homebrew will also install Apple Command Line Tools if not installed. This also installs Python 3.8 which you do not need, and will not work       with with the various Homebrew files needed for Ortho4XP. You will need Homebrew Python which is Homebrew Python 3.9.6 as of 8/2021.
   
   
   
@@ -78,6 +79,7 @@ macOS
 cd /path/to/Ortho4XP
 
 3) Follow the instructions on the install_mac.sh file
+   There are detailed instructions on the X-Plane Ortho4XP Forum
 
 4) Launch Ortho4XP
 python3 Ortho4XP_v130.py
