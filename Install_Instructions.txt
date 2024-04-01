@@ -64,7 +64,7 @@ and launch "python Ortho4XP_v130.py".
 
 macOS
 ----
-NOTE: We have found that Python installed from Python.org will interfear with Ortho4XP
+NOTE: We have found that Python installed from Python.org will interfere with Ortho4XP and cause errors.
 
 1) In a Terminal window, install Homebrew (brew.sh), a package manager
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
