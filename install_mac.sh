@@ -1,6 +1,6 @@
 # AS OF 4/2024
 # Install dependencies 
-brew install python gdal spatialindex p7zip
+brew install python@3.11 gdal spatialindex p7zip
 
 # Install pyproj
 pip3.11 install cython
