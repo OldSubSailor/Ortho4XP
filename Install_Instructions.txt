@@ -62,7 +62,7 @@ pip install *******.whl [replacing ******** successively by each of the files do
 You should be done. Open a command window in the Ortho4XP directory (freshly downloaded from Github)
 and launch "python Ortho4XP_v130.py".
 
-OS X
+macOS
 ----
 NOTE: We have found that Python installed from Python.org will interfear with Ortho4XP
 
