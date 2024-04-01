@@ -1,5 +1,5 @@
 # AS OF 4/2024
-# Install dependencies 
+# Install dependencies >>> I usually install them one at a time. 
 brew install python@3.11 gdal spatialindex p7zip
 
 # Install pyproj
