@@ -1,4 +1,5 @@
-# Install dependencies
+# AS OF 4/2024
+# Install dependencies 
 brew install python gdal spatialindex p7zip
 
 # Install pyproj
